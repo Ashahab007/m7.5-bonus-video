@@ -4,7 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <style>
+      .swim-container {
+        border: 1px solid black;
+        width: 500px;
+        height: 500px;
+        display: flex;
+        gap: 1rem;
+        padding: 2px;
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+      }
+
+      .A {
+        background-color: brown;
+        position: relative;
+        top: 30px;
+      }
+
+      .B {
+        background-color: aquamarine;
+        position: absolute;
+      }
+
+      .C {
+        background-color: blueviolet;
+      }
+    </style>
     <title>M 7.5 Bonus Video</title>
   </head>
-  <body></body>
+  <body>
+    <h1>CSS Position</h1>
+    <ol>
+      <li>Static - Flow Related</li>
+      <li>
+        Relative - Flow Related - It will change it's position from it's current
+        spot. Don't lose it's own position.
+      </li>
+      <li>
+        Absolute - Flow Related - It will lost it's own position and will move
+        based on the root
+      </li>
+
+      <li>Fixed - Scroll Related</li>
+      <li>Sticky - Scroll Related</li>
+    </ol>
+    <br />
+    <div class="swim-container">
+      <div class="box A">A</div>
+      <div class="box B">B</div>
+      <div class="box C">C</div>
+    </div>
+  </body>
 </html>

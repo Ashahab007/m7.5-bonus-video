@@ -1,0 +1,26 @@
+.swim-container {
+  border: 1px solid black;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  gap: 1rem;
+  padding: 2px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.A {
+  background-color: brown;
+}
+
+.B {
+  background-color: aquamarine;
+}
+
+.C {
+  background-color: blueviolet;
+}
