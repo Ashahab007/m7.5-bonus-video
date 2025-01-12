@@ -8,7 +8,7 @@
       .swim-container {
         border: 1px solid black;
         width: 500px;
-        height: 500px;
+        height: 800px;
         display: flex;
         gap: 1rem;
         padding: 2px;
@@ -34,6 +34,16 @@
       .C {
         background-color: blueviolet;
       }
+
+      .D {
+        position: sticky;
+        top: 0px;
+      }
+
+      .C {
+        position: fixed;
+        left: 100px;
+      }
     </style>
     <title>M 7.5 Bonus Video</title>
   </head>
@@ -52,12 +62,17 @@
 
       <li>Fixed - Scroll Related</li>
       <li>Sticky - Scroll Related</li>
+      <li>z-index</li>
     </ol>
     <br />
     <div class="swim-container">
-      <div class="box A">A</div>
-      <div class="box B">B</div>
+      <div class="box A">A - Relative</div>
+      <div class="box B">B - Absolute</div>
       <div class="box C">C</div>
+      <div class="box D">D</div>
+      <div class="box E">E</div>
     </div>
+    <br />
+    <h1>Pseudo Element</h1>
   </body>
 </html>
