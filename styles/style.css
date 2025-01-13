@@ -1,0 +1,17 @@
+/* Pseudo Elelment */
+p:first-child {
+  color: blue;
+}
+
+/* .pseudo-element p::after {
+  content: ".js";
+} */
+
+.pseudo-element p::before {
+  content: "1. ";
+}
+
+.pseudo-element p:nth-child(even)::after {
+  content: ".js";
+  background-color: blanchedalmond;
+}
